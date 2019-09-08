@@ -134,5 +134,6 @@ export default {
   background-color: lightblue;
   width: 50%;
   margin: 20px auto;
+  border-radius:10px;
 }
 </style>

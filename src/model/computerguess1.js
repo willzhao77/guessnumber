@@ -38,7 +38,7 @@ export default class GameThree {
 
     restart(){
       this.message = "Please enter a number (between 0-99) for computer guess."
-      this.computerOutput=null
+      this.computerOutput="Let's play a new game."
       this.counterDisplay="Times:0"
       this.count=0
       this.mixnum=0
