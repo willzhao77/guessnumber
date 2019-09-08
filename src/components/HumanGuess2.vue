@@ -11,9 +11,11 @@
       <input type = "button" value ="Play" @click ="resetGame" class="btn btn-primary marginTop15px">
     </div>
 
-    <form class="form-inline center_div marginTop15px">
-			<input type="text" value="" v-model="guessNumber" class="form-control">
-			<input type="button" value="Guess" @click="guess" class="btn btn-primary">
+    <form class="form-inline marginTop15px">
+      <div class="col-lg-12">
+  			<input type="text" value="" v-model="guessNumber" class="form-control">
+  			<input type="button" value="Guess" @click="guess" class="btn btn-primary">
+      </div>
 		</form>
 	</div>
 </template>
@@ -87,22 +89,19 @@ export default {
 <style scoped>
 .msgbox{
   background-color:lightyellow;
-  width:80%;
-  margin: auto;;
-}
-.center_div{
-width: 300px;
-margin: auto;
-}
-.marginTop15px{
-margin-top: 15px
+  /* width:80%;
+  margin: auto;; */
 }
 
-.whole_bg_color{
+/* .marginTop15px{
+margin-top: 15px
+} */
+
+/* .whole_bg_color{
 padding: 10px;
 background-color: lightblue;
 width: 50%;
 margin: 20px auto;
 border-radius:10px;
-}
+} */
 </style>

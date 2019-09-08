@@ -118,22 +118,19 @@ export default {
 <style scoped>
   .msgbox{
     background-color:pink;
-    width:80%;
-    margin: auto;;
+    /* width:80%;
+    margin: auto;; */
   }
-.center_div{
-  width: 300px;
-  margin: auto;
-}
-.marginTop15px{
-  margin-top: 15px
-}
 
-.whole_bg_color{
+/* .marginTop15px{
+  margin-top: 15px
+} */
+
+/* .whole_bg_color{
   padding: 10px;
   background-color: lightblue;
   width: 50%;
   margin: 20px auto;
   border-radius:10px;
-}
+} */
 </style>

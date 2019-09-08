@@ -39,6 +39,21 @@ v-leave-active 【离场动画的时间段】
 .v-enter-active,
 .v-leave-active{
     transition: all .4s ease;
+}
 
+/* components use below CSS */
+.marginTop15px{
+  margin-top: 15px
+}
+.msgbox{
+  width:80%;
+  margin: auto;;
+}
+.whole_bg_color{
+  padding: 10px;
+  background-color: lightblue;
+  width: 50%;
+  margin: 20px auto;
+  border-radius:10px;
 }
 </style>

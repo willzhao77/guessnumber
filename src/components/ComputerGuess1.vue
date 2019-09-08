@@ -138,6 +138,9 @@ export default {
         // }
       }
       },
+      created(){
+        newGame.init()
+      }
 
 
 }
@@ -147,21 +150,21 @@ export default {
 <style scoped>
 .msgbox{
   background-color:lightgreen;
-  width:80%;
-  margin: auto;
+  /* width:80%;
+  margin: auto; */
 }
 
-.marginTop15px{
+/* .marginTop15px{
   margin-top: 15px
-}
+} */
 
-.whole_bg_color{
+/* .whole_bg_color{
   padding: 10px;
   background-color: lightblue;
   width: 50%;
   margin: 20px auto;
   border-radius:10px;
-}
+} */
 
 
 </style>
