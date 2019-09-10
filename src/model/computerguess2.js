@@ -50,7 +50,7 @@ export default class GameFour {
         console.log(this.count)
       }
       getRangeNum1(min, max){
-        for(i=0;i<this.numberlist.length;i++){
+        for(var i=0;i<this.numberlist.length;i++){
           if(!(Math.abs(this.guessNumber - this.numberlist[i])>=min && Math.abs(this.guessNumber - this.numberlist[i])<=max)){
             this.numberlist.splice(i,1)
             i--
@@ -59,7 +59,7 @@ export default class GameFour {
         this.guessAndCheck()
       }
       getRangeNum2(num){
-        for(i=0;i<this.numberlist.length;i++){
+        for(var i=0;i<this.numberlist.length;i++){
           if(!(Math.abs(this.guessNumber - this.numberlist[i])>=num)){
             this.numberlist.splice(i,1)
             i--
