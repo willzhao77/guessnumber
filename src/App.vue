@@ -1,9 +1,10 @@
 <template>
   <div id="app">
-    <router-link v-bind:to="'/'" class="btn btn-primary">Home</router-link>
-    <router-link v-bind:to="'/HumanGuess1'" class="btn btn-primary">HumanGuess1</router-link>
+    <router-link v-bind:to="'/'" class="btn btn-primary">HumanGuess1</router-link>
     <router-link v-bind:to="'/HumanGuess2'" class="btn btn-primary">HumanGuess2</router-link>
     <router-link v-bind:to="'/ComputerGuess1'" class="btn btn-primary">ComputerGuess1</router-link>
+    <router-link v-bind:to="'/ComputerGuess2'" class="btn btn-primary">ComputerGuess2</router-link>
+
     <transition mode='out-in'>
     <router-view/>
     </transition>
